@@ -11,7 +11,7 @@ This document contains:
 
 **Rongjun Geng**
 AI Systems Engineer | LLM Platforms | AI‑Augmented Control Planes
-Vallejo, CA | (707)‑641‑9290 | [rj.geng@gmail.com](mailto:rj.geng@gmail.com)
+Bay Area, CA | email: (available on request)
 GitHub: rjgeng | LinkedIn: rjgeng
 
 ---
