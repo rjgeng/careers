@@ -111,7 +111,7 @@ From your updated resume, a **good parser extracts**:
 ```
 Name: Rongjun Geng
 Title: AI Systems Engineer
-Location: Vallejo, CA
+Location: Bay Area, CA
 Skills:
   Python, C/C++, Rust, React, Next.js,
   FastAPI, RAG, LLM, AWS, Linux,

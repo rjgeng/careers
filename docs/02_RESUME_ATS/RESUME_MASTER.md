@@ -77,7 +77,7 @@ Below is a **realistic approximation** of what Google ATS / LinkedIn parsing eng
 ```
 Candidate Name: Rongjun Geng
 Primary Title: AI Systems Engineer
-Location: Vallejo, CA
+Location: Bay Area, CA
 
 Skills:
 - Python
