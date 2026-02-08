@@ -1,5 +1,9 @@
 # Careers
 
+This repository is the **process authority** for the career system.
+Jobify-AI is a downstream implementation that encodes a subset of these rules as software.
+Repo boundaries are governed by Jobify-AI ADRs (ADR-010/011/012).
+
 Career infrastructure that treats job search as a **system**, not a series of ad-hoc applications.
 
 This repository contains **career operations infrastructure**: positioning frameworks, ATS-safe resume rules, interview preparation plans, and role selection workflows.
@@ -50,3 +54,11 @@ Career work is treated like system work:
 > define constraints → apply filters → execute deliberately → review outcomes
 
 This repository complements, but does not replace, production systems or professional engineering repositories.
+
+### System Invariant
+
+This repository defines **career process and judgment**.
+
+It does not store personal resume facts and does not automate applications.
+Those boundaries are intentional and documented in
+**ADR-010: Repository Boundaries and Interaction Model**.

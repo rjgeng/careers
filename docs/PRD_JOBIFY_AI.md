@@ -9,12 +9,38 @@
 
 Jobify‑AI is a **career system control plane**, not an auto‑apply tool.
 
+Jobify-AI never becomes a system of record for resumes, career strategy, or hiring outcomes.
+
 It implements a subset of the career‑system specification defined in this repository and turns it into an interactive, AI‑assisted application.
 
 The product helps a user:
 - evaluate roles consistently
 - reduce noise in job search decisions
 - prepare faster for applications and conversations
+
+---
+
+## Repository Boundary Context
+
+Jobify-AI is one component in a deliberately separated career system:
+
+- **Resume** — private, human-authoritative factual history
+- **Careers** — process, filters, and decision frameworks (this repository)
+- **Jobify-AI** — AI-assisted decision-support tooling
+
+Careers defines process rules; Jobify-AI implements a constrained subset of those rules as software.
+
+Careers is the upstream process authority; Jobify-AI is a downstream implementation.
+
+The ownership boundaries and interaction rules between these repositories are defined in:
+
+> **ADR-010: Repository Boundaries and Interaction Model**
+
+This PRD defines **what Jobify-AI is allowed to implement**,
+derived from the process rules defined in the Careers repository
+and constrained by ADR-010.
+
+It does not redefine resume truth, career strategy, or human authority.
 
 ---
 
@@ -27,6 +53,8 @@ Jobify‑AI will **not**:
 - bypass ATS or platform policies
 
 These are intentional constraints.
+
+Any feature that would violate ADR-010 or AI_BOUNDARY.md is explicitly out of scope.
 
 ---
 
@@ -83,6 +111,7 @@ Jobify‑AI reduces randomness by enforcing **structure and repeatability**.
 - Keyword alignment suggestions only
 - No automatic resume rewriting
 - Output is hints, not generated resumes
+- Jobify-AI does not persist resume changes, store resume history, or act as a system of record for resumes.
 
 ### 6.4 Conversation Preparation
 - Recruiter message drafts (short / standard)
@@ -90,7 +119,7 @@ Jobify‑AI reduces randomness by enforcing **structure and repeatability**.
 
 ---
 
-## 7. Data Model (High Level)
+## 7. Local Data Model (High Level)
 
 - Job
 - Evaluation
@@ -111,6 +140,9 @@ AI is used for:
 - draft generation
 
 AI is **not** authoritative.
+
+All AI behavior must comply with the constraints defined in **AI_BOUNDARY.md** and **ADR-010: Repository Boundaries and Interaction Model**.
+
 
 ---
 
@@ -147,6 +179,7 @@ AI is **not** authoritative.
 - Analytics across cohorts
 - Resume versioning
 - Market‑level insights
+- Any future extension must be reviewed against ADR-010 before inclusion
 
 ---
 
@@ -156,3 +189,15 @@ Jobify‑AI is not a job‑hunting bot.
 
 It is a **structured assistant for career decision‑making**, built with the same discipline as production systems.
 
+---
+
+## PRD Change Policy
+
+This PRD is a **canonical v0 specification**.
+
+Changes to scope, authority, or feature intent require:
+- an explicit PRD version update, or
+- a supporting ADR documenting the rationale
+
+Incremental clarifications are allowed.
+Behavioral or boundary changes are not implicit.
