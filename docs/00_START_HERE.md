@@ -1,54 +1,143 @@
 # Start Here
 
-This repository documents my **career as a system**, not a collection of ad-hoc applications.
+This repository defines my **career system**—a structured, repeatable, and measurable approach to targeting roles, preparing for interviews, and managing long-term professional positioning.
+It replaces ad-hoc job searching with **deliberate engineering practice**: clarity of constraints, explicit decision rules, and traceable improvement loops.
 
-It contains ATS-safe resume artifacts, interview preparation materials, role-filtering logic,
-and portfolio narratives aligned with real hiring signals.
+Everything here is **process**, not personal history.
+Personal employment facts live in the **Resume** repository.
+AI-assisted analysis and suggestions live in **Jobify-AI**, constrained by governance ADRs.
 
-The goal is to reduce randomness in job search by applying engineering principles:
-constraints, feedback loops, and measurable outcomes.
-
-All content is derived from non-proprietary work and personal experience.
-Production work lives elsewhere; this repo is strictly **career infrastructure**.
-
-Most readers should start with **Positioning**, **Resume & ATS**, and **Interview Prep**.
-The **Job Search Engine** section describes how roles are evaluated and prioritized.
-
-Portfolio summaries map real projects to resume bullets and system-design discussions.
-Appendix materials provide context, not requirements.
-
-This repository is intentionally opinionated and pragmatic.
-It favors signal clarity over breadth.
-
-Treat it as a reference, not a blog.
+This repository is intentionally minimal, authoritative, and optimized for signal.
 
 ---
 
-## Repository Boundary Context
+## Purpose
 
-This repository is one component of a deliberately separated career system:
+The goal of this system is to:
 
-- **Resume** — private, human-authoritative factual history
-- **Careers** — process, filters, and decision frameworks (this repository)
-- **Jobify-AI** — AI-assisted decision-support tooling
+* create a **stable targeting strategy** grounded in market reality
+* maintain **ATS-safe and lane-specific resume variants**
+* provide **checklists and rubrics** for Senior/Staff-level preparation
+* reduce randomness through deliberate iteration
+* support multiple individuals (engineer, UI/UX) with the same operating model
 
-The ownership boundaries and interaction rules between these repositories
-are defined in:
+It is not a blog or a scrapbook.
+It is a **decision system**.
 
-> **ADR-010: Repository Boundaries and Interaction Model**
+---
 
-This repository defines **how career decisions are made**.
-It does not own personal employment facts and does not automate execution.
+## Boundary Model (Canonical)
 
-## External Authorities (Cross-Repo Contract)
+This repository is one of three authoritative components:
 
-- **careers/** is the **process authority** (targeting, leveling, checklists, interview prep, templates).
-- **Resume/** is the **resume content authority** (human-authored resume variants for each person and lane).
-- **jobify-ai/** is **advisory + logging only** (analysis, suggestions, decision records), per its governance ADRs.
-- This contract applies to all individuals (e.g., engineer, designer/UIUX) and all lanes managed under careers/.
-- Jobify-AI MUST NOT redefine career process or overwrite resume truth; it may **only** reference careers rubrics/templates and produce suggestions.
+### **1. Resume Repository — Human Truth Authority**
 
-Key references:
-- `careers/docs/00_START_HERE.md`
-- `careers/docs/` (process artifacts) and `Resume/` (resume outputs)
+* Owns all personal, factual history
+* Contains resume variants per role lane
+* The only place where resume content is modified
 
+### **2. Careers Repository — Process Authority (this repo)**
+
+* Defines signals, leveling, lane selection
+* Owns ATS rules, positioning, prep checklists
+* Provides reusable frameworks for multiple individuals
+
+### **3. Jobify-AI — Advisory + Logging Only**
+
+* Provides analysis, suggestions, and summaries
+* Cannot modify resume truth
+* Must reference careers positioning and rubrics
+* Governed by ADR-010, ADR-011, ADR-012
+
+These boundaries are mandatory for system integrity.
+
+---
+
+## Cross-Repo Navigation Index
+
+Use this map whenever adding or updating career system artifacts.
+
+### **Resume/**
+
+*What is true*
+
+* `base.md` — canonical fact store
+* Role-lane resume variants
+* LinkedIn update checklist
+
+### **Careers/**
+
+*How decisions are made*
+
+* Positioning (lanes, differentiation, signals)
+* Resume & ATS (rules, playbooks)
+* Interview prep (checklists, rubrics)
+* Role filtering logic (job search engine)
+
+### **Jobify-AI/**
+
+*Advisory only*
+
+* AI analysis of roles
+* Resume suggestions
+* Logged recommendations
+* Governance constraints
+
+---
+
+## How to Use This Repository (Engineer + UI/UX)
+
+1. **Choose a lane** using Positioning frameworks
+2. **Update factual history** in Resume/base.md
+3. **Use ATS rules** to generate role-specific variants
+4. **Prepare using checklists** in Interview Prep
+5. **Run role filtering** with the Job Search Engine
+6. For UI/UX career track, use:
+
+   * `docs/03_LINKEDIN/templates/DESIGNER_UIUX.md`
+   * shared leveling rules (Senior/Staff signals)
+
+This system supports multiple people following the same professional scaffolding.
+
+---
+
+## Staff-Level Interpretation
+
+Senior → executes independently
+Staff → **shapes systems** (process, decision-rules, constraints)
+
+This repository encodes Staff-level behavior by:
+
+* drawing clear ownership boundaries
+* separating truth from process from tooling
+* enforcing reproducibility
+* maintaining canonical ADRs for governance
+* using checklists instead of intuition
+* capturing reasoning, not just results
+
+This is what Staff looks like at the process layer.
+
+---
+
+## What This Repository Is Not
+
+* ❌ not a resume storage location
+* ❌ not a personal journal
+* ❌ not a portfolio website
+* ❌ not an AI-generated artifact dump
+* ❌ not a mixed collection of ideas
+
+It is a **precision tool** for making high-quality career decisions.
+
+---
+
+## You Are Here
+
+If you are new to this repository, start with:
+
+1. **`docs/01_POSITIONING/DIFFERENTIATION.md`**
+2. **`docs/02_RESUME_ATS/ATS_PLAYBOOK.md`**
+3. **`docs/04_INTERVIEW_PREP/GENERAL_PREP.md`**
+4. **`docs/05_JOB_SEARCH_ENGINE/ROLE_FILTER_CHECKLIST.md`**
+
+Then move upward through checklists until you reach Staff-level exp

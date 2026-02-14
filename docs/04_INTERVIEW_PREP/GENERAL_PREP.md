@@ -6,9 +6,10 @@ status: draft
 last_updated: 2026-02-14
 canonical_path: docs/04_INTERVIEW_PREP/GENERAL_PREP.md
 related:
-  - lab/strategy/ENGINEERING_LEVELING_STRATEGY.md
-  - docs/04_INTERVIEW_PREP/checklists/ENGINEERING_LEVEL_CHECKLIST_SENIOR_STAFF.md
-  - docs/02_RESUME_ATS/RESUME_MASTER.md
+
+* lab/strategy/ENGINEERING_LEVELING_STRATEGY.md
+* docs/04_INTERVIEW_PREP/checklists/ENGINEERING_LEVEL_CHECKLIST_SENIOR_STAFF.md
+* docs/02_RESUME_ATS/RESUME_MASTER.md
 
 ---
 
@@ -21,9 +22,9 @@ Focus on **core essentials** first, then expand depth based on the lane you are 
 
 ## See also
 
-- `lab/strategy/ENGINEERING_LEVELING_STRATEGY.md`
-- `docs/04_INTERVIEW_PREP/checklists/ENGINEERING_LEVEL_CHECKLIST_SENIOR_STAFF.md`
-- `docs/02_RESUME_ATS/RESUME_MASTER.md`
+* `lab/strategy/ENGINEERING_LEVELING_STRATEGY.md`
+* `docs/04_INTERVIEW_PREP/checklists/ENGINEERING_LEVEL_CHECKLIST_SENIOR_STAFF.md`
+* `docs/02_RESUME_ATS/RESUME_MASTER.md`
 
 ---
 
@@ -44,6 +45,21 @@ This lane decision should drive:
 * what you study next
 * which stories you practice
 * which resume variant you update (e.g., Staff vs Senior)
+
+---
+
+## 0.1) 30-Second Staff Interview Pitch (Core Identity)
+
+> “I operate with Staff-level judgment: I make systems safer, clearer, and more predictable.
+> My strength is establishing boundaries, reducing ambiguity, and turning messy workflows into repeatable processes.
+> I focus on correctness, operability, and long-term clarity — choosing simplicity unless complexity is required.
+> My impact is multiplying other people, not just writing code.”
+
+Use this as your default answer when asked:
+
+* “What makes you Staff-level?”
+* “How do you approach complex systems?”
+* “What is your engineering philosophy?”
 
 ---
 
