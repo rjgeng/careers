@@ -6,18 +6,24 @@ status: draft
 last_updated: 2026-02-14
 canonical_path: docs/04_INTERVIEW_PREP/GENERAL_PREP.md
 related:
-
-* docs/04_INTERVIEW_PREP/checklists/ENGINEERING_LEVEL_CHECKLIST_SENIOR_STAFF.md
-* lab/strategy/ENGINEERING_LEVELING_STRATEGY.md
-* docs/02_RESUME_ATS/RESUME_MASTER.md
+  - lab/strategy/ENGINEERING_LEVELING_STRATEGY.md
+  - docs/04_INTERVIEW_PREP/checklists/ENGINEERING_LEVEL_CHECKLIST_SENIOR_STAFF.md
+  - docs/02_RESUME_ATS/RESUME_MASTER.md
 
 ---
 
 # Prepare for a job
 
-
 You **don’t** need to learn **everything** in a full roadmap to land a role.
 Focus on **core essentials** first, then expand depth based on the lane you are targeting.
+
+---
+
+## See also
+
+- `lab/strategy/ENGINEERING_LEVELING_STRATEGY.md`
+- `docs/04_INTERVIEW_PREP/checklists/ENGINEERING_LEVEL_CHECKLIST_SENIOR_STAFF.md`
+- `docs/02_RESUME_ATS/RESUME_MASTER.md`
 
 ---
 
