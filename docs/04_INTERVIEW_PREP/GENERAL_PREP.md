@@ -7,7 +7,7 @@ last_updated: 2026-02-14
 canonical_path: docs/04_INTERVIEW_PREP/GENERAL_PREP.md
 related:
 
-* docs/04_INTERVIEW_PREP/checklists/SENIOR_STAFF_ENGINEERING_CHECKLIST.md
+* docs/04_INTERVIEW_PREP/checklists/ENGINEERING_LEVEL_CHECKLIST_SENIOR_STAFF.md
 * lab/strategy/ENGINEERING_LEVELING_STRATEGY.md
 * docs/02_RESUME_ATS/RESUME_MASTER.md
 
@@ -15,7 +15,6 @@ related:
 
 # Prepare for a job
 
-Latest: `GENERAL_PREP_v0.2.md`
 
 You **don’t** need to learn **everything** in a full roadmap to land a role.
 Focus on **core essentials** first, then expand depth based on the lane you are targeting.
@@ -27,7 +26,7 @@ Focus on **core essentials** first, then expand depth based on the lane you are 
 Before you invest time or rewrite materials, pick a default lane:
 
 * **Leveling strategy (lane selection):** `lab/strategy/ENGINEERING_LEVELING_STRATEGY.md`
-* **Level rubric checklist (evidence requirements):** `docs/04_INTERVIEW_PREP/checklists/SENIOR_STAFF_ENGINEERING_CHECKLIST.md`
+* **Level rubric checklist (evidence requirements):** `docs/04_INTERVIEW_PREP/checklists/ENGINEERING_LEVEL_CHECKLIST_SENIOR_STAFF.md`
 
 **Why this matters:**
 
@@ -111,7 +110,7 @@ Use your lane decision to choose the resume target:
 
 Rule: for any resume update, map each bullet to evidence from:
 
-* `docs/04_INTERVIEW_PREP/checklists/SENIOR_STAFF_ENGINEERING_CHECKLIST.md`
+* `docs/04_INTERVIEW_PREP/checklists/ENGINEERING_LEVEL_CHECKLIST_SENIOR_STAFF.md`
 
 ---
 
