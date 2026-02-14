@@ -15,8 +15,6 @@ related:
 
 # Prepare for a job
 
-Latest: `GENERAL_PREP_v0.2.md`
-
 You **don’t** need to learn **everything** in a full roadmap to land a role.
 Focus on **core essentials** first, then expand depth based on the lane you are targeting.
 
